@@ -15,6 +15,7 @@ export default function Home() {
     <div className="relative min-h-screen bg-gray-100">
       <Head>
         <title>Undangan Khitan Umar & Khaled al-Farouq</title>
+        <meta property="og:image" content="<generated>" />
       </Head>
 
       {/* Gambar Undangan - Full Width */}
