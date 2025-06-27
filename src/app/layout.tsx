@@ -21,13 +21,11 @@ export const metadata: Metadata = {
     title: "Undangan Khitan Umar & Khaled al-Farouq",
     description:
       "Mohon doa restu untuk acara khitan Umar & Khaled | 6 Juli 2025 | Perum Villa Batu Ampar",
-    url: "https://undangan-umar-khaled.vercel.app/", // Ganti dengan URL Anda
+    url: "https://undangan-umar-khaled.vercel.app/",
     siteName: "Undangan Khitan",
     images: [
       {
-        url: "/undangan.png", // Path relatif ke file di public folder
-        width: 1200,
-        height: 630,
+        url: "https://undangan-umar-khaled.vercel.app/undangan.png",
         alt: "Undangan Khitan Umar & Khaled",
       },
     ],
