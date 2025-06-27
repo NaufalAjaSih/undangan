@@ -16,6 +16,24 @@ export const metadata: Metadata = {
   title: "Undangan Khitan Umar & Khaled al-Farouq",
   description:
     "Mohon doa restu untuk acara khitan Umar & Khaled pada 6 Juli 2025",
+
+  openGraph: {
+    title: "Undangan Khitan Umar & Khaled al-Farouq",
+    description:
+      "Mohon doa restu untuk acara khitan Umar & Khaled | 6 Juli 2025 | Perum Villa Batu Ampar",
+    url: "https://undangan-umar-khaled.vercel.app/", // Ganti dengan URL Anda
+    siteName: "Undangan Khitan",
+    images: [
+      {
+        url: "/undangan.png", // Path relatif ke file di public folder
+        width: 1200,
+        height: 630,
+        alt: "Undangan Khitan Umar & Khaled",
+      },
+    ],
+    locale: "id_ID",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -24,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

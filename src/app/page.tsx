@@ -12,33 +12,14 @@ export default function Home() {
     window.open(mapsUrl, "_blank");
   };
 
-  const metaData = {
-    title: "Undangan Khitan Umar & Khaled al-Farouq",
-    description:
-      "Mohon doa restu untuk acara khitan Umar & Khaled pada 6 Juli 2025",
-    imageUrl: "/undangan.png", // Buat gambar khusus untuk preview
-    url: "https://undangan-khitan.vercel.app", // Ganti dengan URL Anda
-  };
-
   return (
     <div className="relative min-h-screen bg-gray-100">
       <Head>
-        <title>{metaData.title}</title>
-        <meta name="description" content={metaData.description} />
-
-        {/* Open Graph / Facebook */}
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content={metaData.url} />
-        <meta property="og:title" content={metaData.title} />
-        <meta property="og:description" content={metaData.description} />
-        <meta property="og:image" content={metaData.imageUrl} />
-
-        {/* Twitter */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content={metaData.url} />
-        <meta name="twitter:title" content={metaData.title} />
-        <meta name="twitter:description" content={metaData.description} />
-        <meta name="twitter:image" content={metaData.imageUrl} />
+        <title>Undangan Khitan Umar & Khaled al-Farouq</title>
+        <meta
+          name="description"
+          content="Mohon doa restu untuk acara khitan Umar & Khaled | 6 Juli 2025 | Perum Villa Batu Ampar"
+        />
       </Head>
 
       {/* Gambar Undangan - Full Width */}
