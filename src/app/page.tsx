@@ -11,45 +11,10 @@ export default function Home() {
     window.open(mapsUrl, "_blank");
   };
 
-  // Data untuk URL absolut
-  const siteUrl = "https://undangan-khitan.vercel.app"; // Ganti dengan URL Anda
-  const previewImageUrl = `${siteUrl}/whatsapp-preview.jpg`;
-
   return (
     <div className="relative min-h-screen bg-gray-100">
       <Head>
         <title>Undangan Khitan Umar & Khaled al-Farouq</title>
-        <meta
-          name="description"
-          content="Mohon doa restu untuk acara khitan Umar & Khaled | 6 Juli 2025 | Perum Villa Batu Ampar"
-        />
-
-        {/* Open Graph Meta Tags */}
-        <meta
-          property="og:title"
-          content="Undangan Khitan Umar & Khaled al-Farouq"
-        />
-        <meta
-          property="og:description"
-          content="Mohon doa restu untuk acara khitan Umar & Khaled | 6 Juli 2025 | Perum Villa Batu Ampar"
-        />
-        <meta property="og:url" content={siteUrl} />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={previewImageUrl} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Undangan Khitan Umar & Khaled al-Farouq"
-        />
-        <meta
-          name="twitter:description"
-          content="Mohon doa restu untuk acara khitan Umar & Khaled | 6 Juli 2025 | Perum Villa Batu Ampar"
-        />
-        <meta name="twitter:image" content={previewImageUrl} />
       </Head>
 
       {/* Gambar Undangan - Full Width */}

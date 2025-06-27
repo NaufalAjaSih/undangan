@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Undangan Khitan",
     images: [
       {
-        url: `https://undangan-khitan.vercel.app/undangan.png?${Date.now()}`,
+        url: "/undangan.png", // Path relatif ke file di public folder
         width: 1200,
         height: 630,
         alt: "Undangan Khitan Umar & Khaled",
