@@ -16,7 +16,7 @@ export default function Home() {
     title: "Undangan Khitan Umar & Khaled al-Farouq",
     description:
       "Mohon doa restu untuk acara khitan Umar & Khaled pada 6 Juli 2025",
-    imageUrl: "/undangan.jpg", // Buat gambar khusus untuk preview
+    imageUrl: "/undangan.png", // Buat gambar khusus untuk preview
     url: "https://undangan-khitan.vercel.app", // Ganti dengan URL Anda
   };
 
