@@ -34,10 +34,10 @@ export default function Home() {
       <div className="fixed bottom-0 left-0 right-0 z-10 px-4 pb-4">
         <button
           onClick={handleOpenMaps}
-          className="w-full bg-black/70 text-white py-3 px-6 rounded-full flex items-center justify-center gap-2 hover:bg-black transition duration-200 shadow-lg"
+          className="w-full bg-blue-500/50 text-white py-3 px-6 rounded-full flex items-center justify-center gap-2 hover:bg-blue-500 transition duration-200 shadow-lg"
         >
           <FaMapMarkerAlt size={18} />
-          <span className="font-semibold">Lihat Lokasi</span>
+          <span className="font-semibold">Lihat Denah Lokasi</span>
         </button>
       </div>
     </div>
