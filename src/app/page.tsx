@@ -20,7 +20,7 @@ export default function Home() {
       {/* Gambar Undangan - Full Width */}
       <div className="w-full">
         <Image
-          src="/undangan.jpeg"
+          src="/undangan.jpg"
           alt="Undangan Khitan"
           width={800}
           height={1200}

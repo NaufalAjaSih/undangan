@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Undangan Khitan",
     images: [
       {
-        url: "https://undangan-umar-khaled.vercel.app/undangan.jpeg",
+        url: "https://undangan-umar-khaled.vercel.app/undangan.jpg",
         alt: "Undangan Khitan Umar & Khaled",
       },
     ],
