@@ -6,8 +6,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Home() {
   const handleOpenMaps = () => {
-    const mapsUrl =
-      "https://www.google.com/maps?q=Perum+Villa+Batu+Ampar,+Kilo+3";
+    const mapsUrl = "https://maps.app.goo.gl/y6HgbsWr69ctCdnSA";
     window.open(mapsUrl, "_blank");
   };
 
@@ -21,7 +20,7 @@ export default function Home() {
       {/* Gambar Undangan - Full Width */}
       <div className="w-full">
         <Image
-          src="/undangan.png"
+          src="/undangan.jpeg"
           alt="Undangan Khitan"
           width={800}
           height={1200}
