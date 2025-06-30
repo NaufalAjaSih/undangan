@@ -92,7 +92,7 @@ export default function KhitanInvitation() {
                 transition={{ delay: 0.7, duration: 0.5 }}
                 className="fixed bottom-6 left-0 right-0 flex justify-center px-4 z-50"
               >
-                <button
+                <motion.button
                   onClick={openMaps}
                   className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 max-w-md w-full"
                   whileHover={{ scale: 1.05 }}
@@ -100,7 +100,7 @@ export default function KhitanInvitation() {
                 >
                   <MapPin className="w-5 h-5" />
                   <span>Lihat Lokasi Acara</span>
-                </button>
+                </motion.button>
               </motion.div>
             </>
           )}
