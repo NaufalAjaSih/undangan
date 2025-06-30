@@ -211,6 +211,26 @@ function EnvelopeComponent({ onOpen }: { onOpen: () => void }) {
           />
         </svg>
       </motion.div>
+
+      <motion.div
+        className="absolute -bottom-4 -left-4"
+        animate={{
+          y: [0, -10, 0],
+          rotate: [0, 5, 0],
+        }}
+        transition={{
+          duration: 2,
+          repeat: Number.POSITIVE_INFINITY,
+          ease: "easeInOut",
+        }}
+      >
+        <svg className="w-6 h-6 text-blue-300" viewBox="0 0 24 24">
+          <path
+            fill="currentColor"
+            d="M12,2L4,5v6.09c0,5.05 3.41,9.76 8,10.91c4.59-1.15 8-5.86 8-10.91V5L12,2z"
+          />
+        </svg>
+      </motion.div>
     </motion.div>
   );
 }
