@@ -1,8 +1,8 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MapPin, Volume2, VolumeX } from "lucide-react";
+import { MapPin } from "lucide-react";
 import Head from "next/head";
 import Image from "next/image";
 
