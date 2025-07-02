@@ -15,12 +15,12 @@ export default function KhitanInvitation() {
     setIsOpened(true);
   };
 
-  const toggleMute = () => {
-    if (audioRef.current) {
-      audioRef.current.muted = !isMuted;
-      setIsMuted(!isMuted);
-    }
-  };
+  // const toggleMute = () => {
+  //   if (audioRef.current) {
+  //     audioRef.current.muted = !isMuted;
+  //     setIsMuted(!isMuted);
+  //   }
+  // };
 
   const openMaps = () => {
     window.open("https://maps.app.goo.gl/y6HgbsWr69ctCdnSA", "_blank");
