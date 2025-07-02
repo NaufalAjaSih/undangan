@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function KhitanInvitation() {
   const [isOpened, setIsOpened] = useState(false);
-  const [isMuted, setIsMuted] = useState(false);
+  // const [isMuted, setIsMuted] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
   const handleOpenInvitation = () => {
