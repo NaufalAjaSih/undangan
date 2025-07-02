@@ -26,14 +26,14 @@ export default function KhitanInvitation() {
     window.open("https://maps.app.goo.gl/y6HgbsWr69ctCdnSA", "_blank");
   };
 
-  useEffect(() => {
-    if (isOpened && audioRef.current) {
-      audioRef.current.volume = 0.3;
-      audioRef.current.play().catch((error) => {
-        console.error("Autoplay blocked:", error);
-      });
-    }
-  }, [isOpened]);
+  // useEffect(() => {
+  //   if (isOpened && audioRef.current) {
+  //     audioRef.current.volume = 0.3;
+  //     audioRef.current.play().catch((error) => {
+  //       console.error("Autoplay blocked:", error);
+  //     });
+  //   }
+  // }, [isOpened]);
 
   return (
     <>
@@ -68,7 +68,7 @@ export default function KhitanInvitation() {
                 />
               </motion.div>
 
-              {/* Mute Button */}
+              {/* Mute Button
               <motion.button
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
@@ -83,7 +83,7 @@ export default function KhitanInvitation() {
                 ) : (
                   <Volume2 className="w-5 h-5 text-blue-600" />
                 )}
-              </motion.button>
+              </motion.button> */}
 
               {/* Tombol Lokasi - Posisi Bawah Tengah */}
               <motion.div
